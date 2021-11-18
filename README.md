@@ -11,8 +11,8 @@ User can get a specific range of information through the granted tokenID. Please
 The tokenID can be used to obtain real-time data of your inverter system. The obtain frequency need to be lower than 10 times/min and 10,000 times/day.
 
 
-Changes version 0.1 (11th April 2021)
-- First (test) version
+Changes version 1.0 (17th November 2021)
+- First version
 
 
 Variables (mandatory): 
@@ -21,4 +21,3 @@ Variables (mandatory):
 - solarM2 = The amount of m2 Solar Panels (use . for decimals) for calculating Solar Power m² (default = 0)
 - interval = The daily API limitiation is 300 requests. The default request interval is 360 seconds (6 minutes).
 - debugLevel = Number (1=some, 2=few, 3=all, 4=simulation mode) (default = 1)
-- icon = User defined icon number (add the icon via another device and lookup the number) (default = 0)
