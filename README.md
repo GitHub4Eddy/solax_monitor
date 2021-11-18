@@ -16,8 +16,8 @@ Changes version 1.0 (17th November 2021)
 
 
 Variables (mandatory): 
-- tokenId = token ID of your Solax Inverter
-- inverterSN = Unique identifier of inverter (Serial No.) of your Solax Inverter 
+- tokenId = token ID of your Solax Inverter, obtain your tokenID on the API page of Solaxcloud for free
+- inverterSN = Unique identifier (Serial No.) of your Solax inverter
 - solarM2 = The amount of m2 Solar Panels (use . for decimals) for calculating Solar Power m² (default = 0)
-- interval = The daily API limitiation is 300 requests. The default request interval is 360 seconds (6 minutes).
+- interval = The daily API limitiation is 300 requests (default = 300 seconds (5 minutes), maximum 10 times/min and 10,000 times/day)
 - debugLevel = Number (1=some, 2=few, 3=all, 4=simulation mode) (default = 1)
