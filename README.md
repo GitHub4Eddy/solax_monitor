@@ -10,6 +10,9 @@ See API documentation on https://www.eu.solaxcloud.com/phoebus/resource/files/us
 User can get a specific range of information through the granted tokenID. Please obtain your tokenID on the API page of Solaxcloud for free.
 The tokenID can be used to obtain real-time data of your inverter system. The obtain frequency need to be lower than 10 times/min and 10,000 times/day.
 
+Version 2.1 (4th December 2022)
+- Prevented almost empty responses like these: {"success":false,"exception":"Query success!","result":"this sn did not access!"}
+- Added log text to main device if no data from Solax Cloud 
 
 Version 2.0 (16th April 2022)
 - Added Child Devices for feedinpower, feedinenergy, consumeenergy, feedinpowerM2, soc, peps1, peps2, peps3, batPower, powerdc1, powerdc2, powerdc3, powerdc4
